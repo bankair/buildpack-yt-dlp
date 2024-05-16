@@ -6,6 +6,6 @@ echo "Build dir: $BUILD_DIR"
 echo "Path dir: $PATH"
 cd $BUILD_DIR
 cd bin
-curl --location https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
+curl --location https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o yt-dlp
 chmod a+rx yt-dlp
 ./yt-dlp --version
